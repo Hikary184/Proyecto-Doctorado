@@ -1,0 +1,20 @@
+[
+    {
+        "id": "test-001",
+        "language": "language_a",
+        "headword": "example",
+        "part_of_speech": "noun",
+        "definition": "Example lexical entry",
+        "variants": [],
+        "pronunciations": []
+    },
+    {
+        "id": "test-002",
+        "language": "language_a",
+        "headword": "example2",
+        "part_of_speech": "verb",
+        "definition": "Second example",
+        "variants": [],
+        "pronunciations": []
+    }
+]

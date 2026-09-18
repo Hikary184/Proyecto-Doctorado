@@ -1,0 +1,10 @@
+| Librería      | Uso                                |
+| ------------- | ---------------------------------- |
+| FastAPI       | API de investigación               |
+| Uvicorn       | Servidor                           |
+| SQLAlchemy    | comunicación futura con PostgreSQL |
+| psycopg       | PostgreSQL                         |
+| Pydantic      | validación de entradas             |
+| python-dotenv | configuración                      |
+| pytest        | pruebas                            |
+| RapidFuzz     | búsqueda ortográfica/fuzzy         |
