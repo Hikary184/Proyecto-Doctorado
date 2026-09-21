@@ -1,20 +1,89 @@
 [
     {
         "id": "test-001",
-        "language": "language_a",
-        "headword": "example",
+
+        "language": {
+            "name": "test_language",
+            "iso639_3": null,
+            "glottocode": null,
+            "variety": "test_variety"
+        },
+
+        "headword": "example1",
+
         "part_of_speech": "noun",
-        "definition": "Example lexical entry",
-        "variants": [],
-        "pronunciations": []
-    },
-    {
-        "id": "test-002",
-        "language": "language_a",
-        "headword": "example2",
-        "part_of_speech": "verb",
-        "definition": "Second example",
-        "variants": [],
-        "pronunciations": []
+
+        "variants": [
+            {
+                "form": "example_variant",
+                "type": "orthographic",
+                "variety": null,
+                "notes": null
+            }
+        ],
+
+        "pronunciations": [
+            {
+                "transcription": "example",
+                "system": "IPA",
+                "variety": null,
+                "audio_id": "audio-001"
+            }
+        ],
+
+        "senses": [
+            {
+                "id": "sense-001",
+
+                "definition": "Example definition",
+
+                "gloss_es": "ejemplo",
+                "gloss_en": "example",
+
+                "semantic_domain": "test",
+
+                "examples": [
+                    {
+                        "text": "Example sentence.",
+                        "translation_es": "Oración de ejemplo.",
+                        "translation_en": "Example sentence.",
+                        "source": null,
+                        "audio_id": null
+                    }
+                ]
+            }
+        ],
+
+        "audio": [
+            {
+                "id": "audio-001",
+                "file_name": "test-001.wav",
+
+                "speaker_id": null,
+                "variety": null,
+
+                "duration": null,
+                "format": "wav",
+
+                "license": null
+            }
+        ],
+
+        "metadata": {
+            "source": "test",
+            "source_entry_id": null,
+
+            "annotator": null,
+            "validator": null,
+
+            "date_created": null,
+            "date_modified": null,
+
+            "validation_status": "test",
+
+            "notes": "Synthetic entry used for development."
+        },
+
+        "computational_analysis": {}
     }
 ]

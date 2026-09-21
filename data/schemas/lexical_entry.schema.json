@@ -1,0 +1,842 @@
+{
+  "$defs": {
+    "AudioFile": {
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "file_name": {
+          "title": "File Name",
+          "type": "string"
+        },
+        "speaker_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Speaker Id"
+        },
+        "variety": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Variety"
+        },
+        "duration": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Duration"
+        },
+        "format": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Format"
+        },
+        "license": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "License"
+        }
+      },
+      "required": [
+        "id",
+        "file_name"
+      ],
+      "title": "AudioFile",
+      "type": "object"
+    },
+    "ComputationalAnalysis": {
+      "properties": {
+        "normalization": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/NormalizationAnalysis"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "morphology": {
+          "items": {
+            "$ref": "#/$defs/MorphologicalAnalysis"
+          },
+          "title": "Morphology",
+          "type": "array"
+        },
+        "phonology": {
+          "items": {
+            "$ref": "#/$defs/PhonologicalAnalysis"
+          },
+          "title": "Phonology",
+          "type": "array"
+        },
+        "semantics": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/SemanticAnalysis"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "title": "ComputationalAnalysis",
+      "type": "object"
+    },
+    "Example": {
+      "properties": {
+        "text": {
+          "title": "Text",
+          "type": "string"
+        },
+        "translation_es": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Translation Es"
+        },
+        "translation_en": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Translation En"
+        },
+        "source": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source"
+        },
+        "audio_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Audio Id"
+        }
+      },
+      "required": [
+        "text"
+      ],
+      "title": "Example",
+      "type": "object"
+    },
+    "LanguageInfo": {
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "iso639_3": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Iso639 3"
+        },
+        "glottocode": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Glottocode"
+        },
+        "variety": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Variety"
+        }
+      },
+      "required": [
+        "name"
+      ],
+      "title": "LanguageInfo",
+      "type": "object"
+    },
+    "Metadata": {
+      "properties": {
+        "source": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source"
+        },
+        "source_entry_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Entry Id"
+        },
+        "annotator": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Annotator"
+        },
+        "validator": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Validator"
+        },
+        "date_created": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Date Created"
+        },
+        "date_modified": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Date Modified"
+        },
+        "validation_status": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Validation Status"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        }
+      },
+      "title": "Metadata",
+      "type": "object"
+    },
+    "Morpheme": {
+      "properties": {
+        "form": {
+          "title": "Form",
+          "type": "string"
+        },
+        "type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Type"
+        },
+        "gloss": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Gloss"
+        }
+      },
+      "required": [
+        "form"
+      ],
+      "title": "Morpheme",
+      "type": "object"
+    },
+    "MorphologicalAnalysis": {
+      "properties": {
+        "base": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Base"
+        },
+        "root": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Root"
+        },
+        "morphemes": {
+          "items": {
+            "$ref": "#/$defs/Morpheme"
+          },
+          "title": "Morphemes",
+          "type": "array"
+        },
+        "method": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Method"
+        },
+        "model": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Model"
+        },
+        "confidence": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Confidence"
+        }
+      },
+      "title": "MorphologicalAnalysis",
+      "type": "object"
+    },
+    "NormalizationAnalysis": {
+      "properties": {
+        "normalized_form": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Normalized Form"
+        },
+        "method": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Method"
+        },
+        "version": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Version"
+        },
+        "profile": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Profile"
+        },
+        "operations": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Operations",
+          "type": "array"
+        }
+      },
+      "title": "NormalizationAnalysis",
+      "type": "object"
+    },
+    "PhonologicalAnalysis": {
+      "properties": {
+        "ipa": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Ipa"
+        },
+        "normalized_ipa": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Normalized Ipa"
+        },
+        "method": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Method"
+        },
+        "model": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Model"
+        },
+        "confidence": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Confidence"
+        }
+      },
+      "title": "PhonologicalAnalysis",
+      "type": "object"
+    },
+    "Pronunciation": {
+      "properties": {
+        "transcription": {
+          "title": "Transcription",
+          "type": "string"
+        },
+        "system": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "System"
+        },
+        "variety": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Variety"
+        },
+        "audio_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Audio Id"
+        }
+      },
+      "required": [
+        "transcription"
+      ],
+      "title": "Pronunciation",
+      "type": "object"
+    },
+    "SemanticAnalysis": {
+      "properties": {
+        "model": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Model"
+        },
+        "embedding_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Embedding Id"
+        },
+        "semantic_tags": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Semantic Tags",
+          "type": "array"
+        }
+      },
+      "title": "SemanticAnalysis",
+      "type": "object"
+    },
+    "Sense": {
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "definition": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Definition"
+        },
+        "gloss_es": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Gloss Es"
+        },
+        "gloss_en": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Gloss En"
+        },
+        "semantic_domain": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Semantic Domain"
+        },
+        "examples": {
+          "items": {
+            "$ref": "#/$defs/Example"
+          },
+          "title": "Examples",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id"
+      ],
+      "title": "Sense",
+      "type": "object"
+    },
+    "Variant": {
+      "properties": {
+        "form": {
+          "title": "Form",
+          "type": "string"
+        },
+        "type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Type"
+        },
+        "variety": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Variety"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        }
+      },
+      "required": [
+        "form"
+      ],
+      "title": "Variant",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "language": {
+      "$ref": "#/$defs/LanguageInfo"
+    },
+    "headword": {
+      "title": "Headword",
+      "type": "string"
+    },
+    "part_of_speech": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Part Of Speech"
+    },
+    "variants": {
+      "items": {
+        "$ref": "#/$defs/Variant"
+      },
+      "title": "Variants",
+      "type": "array"
+    },
+    "pronunciations": {
+      "items": {
+        "$ref": "#/$defs/Pronunciation"
+      },
+      "title": "Pronunciations",
+      "type": "array"
+    },
+    "senses": {
+      "items": {
+        "$ref": "#/$defs/Sense"
+      },
+      "title": "Senses",
+      "type": "array"
+    },
+    "audio": {
+      "items": {
+        "$ref": "#/$defs/AudioFile"
+      },
+      "title": "Audio",
+      "type": "array"
+    },
+    "metadata": {
+      "$ref": "#/$defs/Metadata"
+    },
+    "computational_analysis": {
+      "$ref": "#/$defs/ComputationalAnalysis"
+    }
+  },
+  "required": [
+    "id",
+    "language",
+    "headword"
+  ],
+  "title": "LexicalEntry",
+  "type": "object"
+}
