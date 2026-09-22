@@ -1,89 +1,41 @@
 [
     {
         "id": "test-001",
-
         "language": {
-            "name": "test_language",
-            "iso639_3": null,
-            "glottocode": null,
-            "variety": "test_variety"
+            "name": "test_language"
         },
+        "headword": "Example"
+    },
 
-        "headword": "example1",
-
-        "part_of_speech": "noun",
-
-        "variants": [
-            {
-                "form": "example_variant",
-                "type": "orthographic",
-                "variety": null,
-                "notes": null
-            }
-        ],
-
-        "pronunciations": [
-            {
-                "transcription": "example",
-                "system": "IPA",
-                "variety": null,
-                "audio_id": "audio-001"
-            }
-        ],
-
-        "senses": [
-            {
-                "id": "sense-001",
-
-                "definition": "Example definition",
-
-                "gloss_es": "ejemplo",
-                "gloss_en": "example",
-
-                "semantic_domain": "test",
-
-                "examples": [
-                    {
-                        "text": "Example sentence.",
-                        "translation_es": "Oración de ejemplo.",
-                        "translation_en": "Example sentence.",
-                        "source": null,
-                        "audio_id": null
-                    }
-                ]
-            }
-        ],
-
-        "audio": [
-            {
-                "id": "audio-001",
-                "file_name": "test-001.wav",
-
-                "speaker_id": null,
-                "variety": null,
-
-                "duration": null,
-                "format": "wav",
-
-                "license": null
-            }
-        ],
-
-        "metadata": {
-            "source": "test",
-            "source_entry_id": null,
-
-            "annotator": null,
-            "validator": null,
-
-            "date_created": null,
-            "date_modified": null,
-
-            "validation_status": "test",
-
-            "notes": "Synthetic entry used for development."
+    {
+        "id": "test-002",
+        "language": {
+            "name": "test_language"
         },
+        "headword": "Example Word"
+    },
 
-        "computational_analysis": {}
+    {
+        "id": "test-003",
+        "language": {
+            "name": "test_language"
+        },
+        "headword": "Árbol"
+    },
+
+    {
+        "id": "test-004",
+        "language": {
+            "name": "test_language"
+        },
+        "headword": "Casa"
+    },
+
+    {
+        "id": "test-005",
+        "language": {
+            "name": "test_language"
+        },
+        "headword": "Niño"
     }
 ]
