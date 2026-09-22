@@ -37,3 +37,17 @@ Default Top-K:
 
 These values are preliminary and will be evaluated
 experimentally.
+
+### Levenshtein limitations
+
+The baseline fuzzy retrieval system uses standard
+Levenshtein distance.
+
+Character transpositions are not represented as a
+single edit operation. Therefore, spelling errors based
+on adjacent-character transposition may receive lower
+similarity scores than deletion or substitution errors.
+
+Alternative edit-distance measures such as
+Damerau-Levenshtein may be evaluated in subsequent
+experiments.

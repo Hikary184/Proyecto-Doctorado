@@ -1,0 +1,62 @@
+[
+    {
+        "id": "q001",
+        "query": "Example",
+        "category": "exact",
+        "relevant_ids": ["test-001"]
+    },
+    {
+        "id": "q002",
+        "query": "example",
+        "category": "case",
+        "relevant_ids": ["test-001"]
+    },
+    {
+        "id": "q003",
+        "query": "EXAMPLE",
+        "category": "case",
+        "relevant_ids": ["test-001"]
+    },
+    {
+        "id": "q004",
+        "query": " exAmple ",
+        "category": "whitespace_case",
+        "relevant_ids": ["test-001"]
+    },
+    {
+        "id": "q005",
+        "query": "exampel",
+        "category": "transposition",
+        "relevant_ids": ["test-001"]
+    },
+    {
+        "id": "q006",
+        "query": "exmple",
+        "category": "deletion",
+        "relevant_ids": ["test-001"]
+    },
+    {
+        "id": "q007",
+        "query": "csa",
+        "category": "deletion",
+        "relevant_ids": ["test-004"]
+    },
+    {
+        "id": "q008",
+        "query": "ÁRBOL",
+        "category": "case",
+        "relevant_ids": ["test-003"]
+    },
+    {
+        "id": "q009",
+        "query": "árbol",
+        "category": "case",
+        "relevant_ids": ["test-003"]
+    },
+    {
+        "id": "q010",
+        "query": "arbol",
+        "category": "diacritic",
+        "relevant_ids": ["test-003"]
+    }
+]
