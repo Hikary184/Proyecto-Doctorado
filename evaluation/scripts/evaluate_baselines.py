@@ -201,6 +201,10 @@ def evaluate():
         detailed_results,
         methods
     )
+    save_category_summary(
+    detailed_results,
+    methods
+)
 
 
 def save_detailed_results(
@@ -329,6 +333,99 @@ def save_summary(
                 f"  {metric:16s}: "
                 f"{row[metric]:.4f}"
             )
+
+def save_category_summary(
+    results,
+    methods
+):
+
+    metric_names = [
+        "top1_accuracy",
+        "precision_at_1",
+        "recall_at_5",
+        "mrr",
+        "ndcg_at_5"
+    ]
+
+    categories = sorted(
+        set(
+            row["category"]
+            for row in results
+        )
+    )
+
+    summary_rows = []
+
+    for method in methods:
+
+        for category in categories:
+
+            category_rows = [
+
+                row
+                for row in results
+
+                if (
+                    row["method"] == method
+                    and
+                    row["category"] == category
+                )
+            ]
+
+            if not category_rows:
+                continue
+
+            summary = {
+
+                "method": method,
+
+                "category": category,
+
+                "queries": len(
+                    category_rows
+                )
+            }
+
+            for metric in metric_names:
+
+                summary[metric] = mean(
+                    row[metric]
+                    for row in category_rows
+                )
+
+            summary_rows.append(
+                summary
+            )
+
+    output = (
+        RESULTS_DIR /
+        "baseline_by_category.csv"
+    )
+
+    with open(
+        output,
+        "w",
+        newline="",
+        encoding="utf-8"
+    ) as file:
+
+        writer = csv.DictWriter(
+            file,
+            fieldnames=summary_rows[
+                0
+            ].keys()
+        )
+
+        writer.writeheader()
+
+        writer.writerows(
+            summary_rows
+        )
+
+    print(
+        f"Category results: {output}"
+    )
+
 
 
 if __name__ == "__main__":
