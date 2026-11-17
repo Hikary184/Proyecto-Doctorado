@@ -1,0 +1,151 @@
+﻿query_id,category,query,source_headword,method,relevant_count,returned_count,top_result_id,top_result_headword,top_result_score,top1_accuracy,precision_at_1,precision_at_5,recall_at_5,mrr,ndcg_at_5,relevant_ids,retrieved_ids
+nah-dev-001,exact,sitlaltsitsimitl,sitlaltsitsimitl,B0_exact_raw,1,1,nahuatl-caee7275bb4c,sitlaltsitsimitl,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-caee7275bb4c,nahuatl-caee7275bb4c
+nah-dev-001,exact,sitlaltsitsimitl,sitlaltsitsimitl,B1_exact_normalized,1,1,nahuatl-caee7275bb4c,sitlaltsitsimitl,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-caee7275bb4c,nahuatl-caee7275bb4c
+nah-dev-001,exact,sitlaltsitsimitl,sitlaltsitsimitl,B2_fuzzy_normalized,1,2,nahuatl-caee7275bb4c,sitlaltsitsimitl,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-caee7275bb4c,nahuatl-caee7275bb4c|nahuatl-748402c7be51
+nah-dev-002,exact,kantabria,kantabria,B0_exact_raw,1,1,nahuatl-3b8b7dd2862f,kantabria,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-3b8b7dd2862f,nahuatl-3b8b7dd2862f
+nah-dev-002,exact,kantabria,kantabria,B1_exact_normalized,1,2,nahuatl-067435b55695,Kantabria,1.0,0.0,0.0,0.2,1.0,0.5,0.6309297535714575,nahuatl-3b8b7dd2862f,nahuatl-067435b55695|nahuatl-3b8b7dd2862f
+nah-dev-002,exact,kantabria,kantabria,B2_fuzzy_normalized,1,5,nahuatl-067435b55695,Kantabria,1.0,0.0,0.0,0.2,1.0,0.5,0.6309297535714575,nahuatl-3b8b7dd2862f,nahuatl-067435b55695|nahuatl-3b8b7dd2862f|nahuatl-92795c8858ca|nahuatl-ca0c12c38639|nahuatl-5a56309268a1
+nah-dev-003,exact,tlauelittalistli,tlauelittalistli,B0_exact_raw,1,1,nahuatl-4d0b3cbad3e2,tlauelittalistli,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-4d0b3cbad3e2,nahuatl-4d0b3cbad3e2
+nah-dev-003,exact,tlauelittalistli,tlauelittalistli,B1_exact_normalized,1,1,nahuatl-4d0b3cbad3e2,tlauelittalistli,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-4d0b3cbad3e2,nahuatl-4d0b3cbad3e2
+nah-dev-003,exact,tlauelittalistli,tlauelittalistli,B2_fuzzy_normalized,1,5,nahuatl-4d0b3cbad3e2,tlauelittalistli,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-4d0b3cbad3e2,nahuatl-4d0b3cbad3e2|nahuatl-a92528bbb8ae|nahuatl-c2c4ebf6e999|nahuatl-423ebb6554e4|nahuatl-272f36441998
+nah-dev-004,exact,ekaualichkatl,ekaualichkatl,B0_exact_raw,1,1,nahuatl-3da892cbb063,ekaualichkatl,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-3da892cbb063,nahuatl-3da892cbb063
+nah-dev-004,exact,ekaualichkatl,ekaualichkatl,B1_exact_normalized,1,1,nahuatl-3da892cbb063,ekaualichkatl,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-3da892cbb063,nahuatl-3da892cbb063
+nah-dev-004,exact,ekaualichkatl,ekaualichkatl,B2_fuzzy_normalized,1,5,nahuatl-3da892cbb063,ekaualichkatl,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-3da892cbb063,nahuatl-3da892cbb063|nahuatl-5a39a128e660|nahuatl-1ab8c7aced7a|nahuatl-a2765d0a5059|nahuatl-c73211012c29
+nah-dev-005,exact,aseloni,aseloni,B0_exact_raw,1,1,nahuatl-fdb4d2f03e3d,aseloni,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-fdb4d2f03e3d,nahuatl-fdb4d2f03e3d
+nah-dev-005,exact,aseloni,aseloni,B1_exact_normalized,1,1,nahuatl-fdb4d2f03e3d,aseloni,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-fdb4d2f03e3d,nahuatl-fdb4d2f03e3d
+nah-dev-005,exact,aseloni,aseloni,B2_fuzzy_normalized,1,5,nahuatl-fdb4d2f03e3d,aseloni,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-fdb4d2f03e3d,nahuatl-fdb4d2f03e3d|nahuatl-d80a2f0f60f0|nahuatl-d06167069af5|nahuatl-d83063236222|nahuatl-00e0a5431e2f
+nah-dev-006,case,KOCHKI,kochki,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-a08ea5a40332,
+nah-dev-006,case,KOCHKI,kochki,B1_exact_normalized,1,1,nahuatl-a08ea5a40332,kochki,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-a08ea5a40332,nahuatl-a08ea5a40332
+nah-dev-006,case,KOCHKI,kochki,B2_fuzzy_normalized,1,5,nahuatl-a08ea5a40332,kochki,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-a08ea5a40332,nahuatl-a08ea5a40332|nahuatl-26eba6fee057|nahuatl-305e198e1c24|nahuatl-076fd89461d4|nahuatl-7afa086c2863
+nah-dev-007,case,TLEYOTILIA,tleyotilia,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-25f9ec93c734,
+nah-dev-007,case,TLEYOTILIA,tleyotilia,B1_exact_normalized,1,1,nahuatl-25f9ec93c734,tleyotilia,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-25f9ec93c734,nahuatl-25f9ec93c734
+nah-dev-007,case,TLEYOTILIA,tleyotilia,B2_fuzzy_normalized,1,5,nahuatl-25f9ec93c734,tleyotilia,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-25f9ec93c734,nahuatl-25f9ec93c734|nahuatl-cc188816d7c9|nahuatl-c4ca0658677b|nahuatl-d9b0cf180bf1|nahuatl-676b5836a2d9
+nah-dev-008,case,IXNEKUILTIK,ixnekuiltik,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-007f556df412,
+nah-dev-008,case,IXNEKUILTIK,ixnekuiltik,B1_exact_normalized,1,1,nahuatl-007f556df412,ixnekuiltik,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-007f556df412,nahuatl-007f556df412
+nah-dev-008,case,IXNEKUILTIK,ixnekuiltik,B2_fuzzy_normalized,1,5,nahuatl-007f556df412,ixnekuiltik,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-007f556df412,nahuatl-007f556df412|nahuatl-0697943dd287|nahuatl-1033ab803608|nahuatl-929b1ef6abb7|nahuatl-f040486afda4
+nah-dev-009,case,TETEPACHOA,tetepachoa,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-018e269acab1,
+nah-dev-009,case,TETEPACHOA,tetepachoa,B1_exact_normalized,1,1,nahuatl-018e269acab1,tetepachoa,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-018e269acab1,nahuatl-018e269acab1
+nah-dev-009,case,TETEPACHOA,tetepachoa,B2_fuzzy_normalized,1,5,nahuatl-018e269acab1,tetepachoa,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-018e269acab1,nahuatl-018e269acab1|nahuatl-1b4ce5d4df67|nahuatl-39662c5cada2|nahuatl-14bb854b7077|nahuatl-2487ec5693a4
+nah-dev-010,case,NAVARREKATL,navarrekatl,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-897cf23b14ac,
+nah-dev-010,case,NAVARREKATL,navarrekatl,B1_exact_normalized,1,1,nahuatl-897cf23b14ac,navarrekatl,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-897cf23b14ac,nahuatl-897cf23b14ac
+nah-dev-010,case,NAVARREKATL,navarrekatl,B2_fuzzy_normalized,1,5,nahuatl-897cf23b14ac,navarrekatl,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-897cf23b14ac,nahuatl-897cf23b14ac|nahuatl-1e2b64985c28|nahuatl-5fbd32a4885a|nahuatl-f53000a6a43e|nahuatl-7ada7f042ab8
+nah-dev-011,whitespace,  panitlasatl  ,panitlasatl,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-9fb12bdb4c90,
+nah-dev-011,whitespace,  panitlasatl  ,panitlasatl,B1_exact_normalized,1,1,nahuatl-9fb12bdb4c90,panitlasatl,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-9fb12bdb4c90,nahuatl-9fb12bdb4c90
+nah-dev-011,whitespace,  panitlasatl  ,panitlasatl,B2_fuzzy_normalized,1,5,nahuatl-9fb12bdb4c90,panitlasatl,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-9fb12bdb4c90,nahuatl-9fb12bdb4c90|nahuatl-98ddc3078d2e|nahuatl-1d6bc76e4094|nahuatl-38c3a0e03e91|nahuatl-527dc3aa62a6
+nah-dev-012,whitespace,  nematumalistli  ,nematumalistli,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-14414b33965a,
+nah-dev-012,whitespace,  nematumalistli  ,nematumalistli,B1_exact_normalized,1,1,nahuatl-14414b33965a,nematumalistli,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-14414b33965a,nahuatl-14414b33965a
+nah-dev-012,whitespace,  nematumalistli  ,nematumalistli,B2_fuzzy_normalized,1,5,nahuatl-14414b33965a,nematumalistli,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-14414b33965a,nahuatl-14414b33965a|nahuatl-bba5a5d48a13|nahuatl-9faa32443581|nahuatl-55356c0e4b33|nahuatl-5e3008b368b0
+nah-dev-013,whitespace,  kakayaua  ,kakayaua,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-0fb2df337a69,
+nah-dev-013,whitespace,  kakayaua  ,kakayaua,B1_exact_normalized,1,1,nahuatl-0fb2df337a69,kakayaua,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-0fb2df337a69,nahuatl-0fb2df337a69
+nah-dev-013,whitespace,  kakayaua  ,kakayaua,B2_fuzzy_normalized,1,5,nahuatl-0fb2df337a69,kakayaua,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-0fb2df337a69,nahuatl-0fb2df337a69|nahuatl-bea667b4af90|nahuatl-e58ad0f53f03|nahuatl-8888b9950411|nahuatl-790a4a256293
+nah-dev-014,whitespace,  okichpiltsintli  ,okichpiltsintli,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-f3c1618bee9b,
+nah-dev-014,whitespace,  okichpiltsintli  ,okichpiltsintli,B1_exact_normalized,1,1,nahuatl-f3c1618bee9b,okichpiltsintli,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-f3c1618bee9b,nahuatl-f3c1618bee9b
+nah-dev-014,whitespace,  okichpiltsintli  ,okichpiltsintli,B2_fuzzy_normalized,1,5,nahuatl-f3c1618bee9b,okichpiltsintli,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-f3c1618bee9b,nahuatl-f3c1618bee9b|nahuatl-963a335acd97|nahuatl-8103b0a97900|nahuatl-8aeb1ebe49ac|nahuatl-5679cc3ebaee
+nah-dev-015,whitespace,  tlatsinkuinia  ,tlatsinkuinia,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-5177b0d76f54,
+nah-dev-015,whitespace,  tlatsinkuinia  ,tlatsinkuinia,B1_exact_normalized,1,1,nahuatl-5177b0d76f54,tlatsinkuinia,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-5177b0d76f54,nahuatl-5177b0d76f54
+nah-dev-015,whitespace,  tlatsinkuinia  ,tlatsinkuinia,B2_fuzzy_normalized,1,5,nahuatl-5177b0d76f54,tlatsinkuinia,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-5177b0d76f54,nahuatl-5177b0d76f54|nahuatl-570941fe43b4|nahuatl-2931745bc71a|nahuatl-dd92a793fd3e|nahuatl-e5577416b95f
+nah-dev-016,deletion,tlakkoli,tlakokoli,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-dc129afde38c,
+nah-dev-016,deletion,tlakkoli,tlakokoli,B1_exact_normalized,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-dc129afde38c,
+nah-dev-016,deletion,tlakkoli,tlakokoli,B2_fuzzy_normalized,1,5,nahuatl-dc129afde38c,tlakokoli,0.8888888888888888,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-dc129afde38c,nahuatl-dc129afde38c|nahuatl-dd955041ec54|nahuatl-48bbd55439cd|nahuatl-b8a14e7b5033|nahuatl-7f56098f9664
+nah-dev-017,deletion,yeimostatsinka,yeimostlatsinka,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-2eb057cc7cee,
+nah-dev-017,deletion,yeimostatsinka,yeimostlatsinka,B1_exact_normalized,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-2eb057cc7cee,
+nah-dev-017,deletion,yeimostatsinka,yeimostlatsinka,B2_fuzzy_normalized,1,3,nahuatl-2eb057cc7cee,yeimostlatsinka,0.9333333333333333,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-2eb057cc7cee,nahuatl-2eb057cc7cee|nahuatl-54f154caf439|nahuatl-b678e0fc03bb
+nah-dev-018,deletion,nekaliistli,nekalilistli,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-13610c84fb86,
+nah-dev-018,deletion,nekaliistli,nekalilistli,B1_exact_normalized,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-13610c84fb86,
+nah-dev-018,deletion,nekaliistli,nekalilistli,B2_fuzzy_normalized,1,5,nahuatl-13610c84fb86,nekalilistli,0.9166666666666666,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-13610c84fb86,nahuatl-13610c84fb86|nahuatl-b9b1ec7edfa4|nahuatl-4d8d8aeb8a11|nahuatl-611cd016cf44|nahuatl-873b4050882f
+nah-dev-019,deletion,atsaotl,atsapotl,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-f05624d7d780,
+nah-dev-019,deletion,atsaotl,atsapotl,B1_exact_normalized,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-f05624d7d780,
+nah-dev-019,deletion,atsaotl,atsapotl,B2_fuzzy_normalized,1,5,nahuatl-f05624d7d780,atsapotl,0.875,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-f05624d7d780,nahuatl-f05624d7d780|nahuatl-1ed201cf13db|nahuatl-0ba9f85e64cc|nahuatl-c24def73eadd|nahuatl-8d8576b36c86
+nah-dev-020,deletion,ojtltoka,ojtlatoka,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-030d14f966ec,
+nah-dev-020,deletion,ojtltoka,ojtlatoka,B1_exact_normalized,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-030d14f966ec,
+nah-dev-020,deletion,ojtltoka,ojtlatoka,B2_fuzzy_normalized,1,5,nahuatl-030d14f966ec,ojtlatoka,0.8888888888888888,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-030d14f966ec,nahuatl-030d14f966ec|nahuatl-19db26b7d604|nahuatl-075931aaf9ae|nahuatl-aa65c8ec1a72|nahuatl-7d7a4977bdcc
+nah-dev-021,insertion,tlaxokamaalkayotl,tlaxokamalkayotl,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-5d105610cb19,
+nah-dev-021,insertion,tlaxokamaalkayotl,tlaxokamalkayotl,B1_exact_normalized,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-5d105610cb19,
+nah-dev-021,insertion,tlaxokamaalkayotl,tlaxokamalkayotl,B2_fuzzy_normalized,1,5,nahuatl-5d105610cb19,tlaxokamalkayotl,0.9411764705882353,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-5d105610cb19,nahuatl-5d105610cb19|nahuatl-6020ecf7d6da|nahuatl-ebcdb6ce501a|nahuatl-6e1027621378|nahuatl-163c849c89f1
+nah-dev-022,insertion,atlaneixxtiloyan,atlaneixtiloyan,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-922ab12a61a5,
+nah-dev-022,insertion,atlaneixxtiloyan,atlaneixtiloyan,B1_exact_normalized,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-922ab12a61a5,
+nah-dev-022,insertion,atlaneixxtiloyan,atlaneixtiloyan,B2_fuzzy_normalized,1,3,nahuatl-922ab12a61a5,atlaneixtiloyan,0.9375,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-922ab12a61a5,nahuatl-922ab12a61a5|nahuatl-cadcd1ae1cac|nahuatl-18f7e308a730
+nah-dev-023,insertion,tlanexxilok,tlanexilok,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-6782b0f95ada,
+nah-dev-023,insertion,tlanexxilok,tlanexilok,B1_exact_normalized,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-6782b0f95ada,
+nah-dev-023,insertion,tlanexxilok,tlanexilok,B2_fuzzy_normalized,1,5,nahuatl-6782b0f95ada,tlanexilok,0.9090909090909091,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-6782b0f95ada,nahuatl-6782b0f95ada|nahuatl-69361154de06|nahuatl-0b7a28ae8002|nahuatl-39fafffd1195|nahuatl-6c6302e3d3fa
+nah-dev-024,insertion,teomachttilistli,teomachtilistli,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-605ebd5fb6c3,
+nah-dev-024,insertion,teomachttilistli,teomachtilistli,B1_exact_normalized,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-605ebd5fb6c3,
+nah-dev-024,insertion,teomachttilistli,teomachtilistli,B2_fuzzy_normalized,1,5,nahuatl-605ebd5fb6c3,teomachtilistli,0.9375,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-605ebd5fb6c3,nahuatl-605ebd5fb6c3|nahuatl-eea16e04cfe0|nahuatl-2bb28dde33c4|nahuatl-36f2f23ac705|nahuatl-058dd431edd6
+nah-dev-025,insertion,iluikatlaatilistli,iluikatlatilistli,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-3dd1e4aca1b4,
+nah-dev-025,insertion,iluikatlaatilistli,iluikatlatilistli,B1_exact_normalized,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-3dd1e4aca1b4,
+nah-dev-025,insertion,iluikatlaatilistli,iluikatlatilistli,B2_fuzzy_normalized,1,5,nahuatl-d8507afb38f2,iluikatlamatilistli,0.9473684210526316,0.0,0.0,0.2,1.0,0.5,0.6309297535714575,nahuatl-3dd1e4aca1b4,nahuatl-d8507afb38f2|nahuatl-3dd1e4aca1b4|nahuatl-76cd3862909b|nahuatl-bfed9396f4e5|nahuatl-5eb446ac21f4
+nah-dev-026,substitution,koaxiatxajtoli,koaxiatlajtoli,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-616e7c3f5526,
+nah-dev-026,substitution,koaxiatxajtoli,koaxiatlajtoli,B1_exact_normalized,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-616e7c3f5526,
+nah-dev-026,substitution,koaxiatxajtoli,koaxiatlajtoli,B2_fuzzy_normalized,1,5,nahuatl-616e7c3f5526,koaxiatlajtoli,0.9285714285714286,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-616e7c3f5526,nahuatl-616e7c3f5526|nahuatl-9455c6494a14|nahuatl-6abbf8ae0df3|nahuatl-c9067b7d3596|nahuatl-d3c2d1f056bc
+nah-dev-027,substitution,misxli,mistli,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-51fece491523,
+nah-dev-027,substitution,misxli,mistli,B1_exact_normalized,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-51fece491523,
+nah-dev-027,substitution,misxli,mistli,B2_fuzzy_normalized,1,5,nahuatl-51fece491523,mistli,0.8333333333333334,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-51fece491523,nahuatl-51fece491523|nahuatl-7df639b6395c|nahuatl-72c5749ff18c|nahuatl-18dd00efe965|nahuatl-114a7251455e
+nah-dev-028,substitution,mikpetxakali,mikpetlakali,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-cc2068bafbf2,
+nah-dev-028,substitution,mikpetxakali,mikpetlakali,B1_exact_normalized,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-cc2068bafbf2,
+nah-dev-028,substitution,mikpetxakali,mikpetlakali,B2_fuzzy_normalized,1,5,nahuatl-cc2068bafbf2,mikpetlakali,0.9166666666666666,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-cc2068bafbf2,nahuatl-cc2068bafbf2|nahuatl-17bedad1378d|nahuatl-76132e1c7b34|nahuatl-7e6801ad6e5f|nahuatl-e503efd647ef
+nah-dev-029,substitution,xonxtl,xonotl,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-287ca9760698,
+nah-dev-029,substitution,xonxtl,xonotl,B1_exact_normalized,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-287ca9760698,
+nah-dev-029,substitution,xonxtl,xonotl,B2_fuzzy_normalized,1,5,nahuatl-287ca9760698,xonotl,0.8333333333333334,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-287ca9760698,nahuatl-287ca9760698|nahuatl-d0f4a2cf909f|nahuatl-7cff783c5324|nahuatl-2bea31ec3ad9|nahuatl-dae72cbb7a78
+nah-dev-030,substitution,atlxko,atlako,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-b3a024fc17f6,
+nah-dev-030,substitution,atlxko,atlako,B1_exact_normalized,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-b3a024fc17f6,
+nah-dev-030,substitution,atlxko,atlako,B2_fuzzy_normalized,1,5,nahuatl-ea6f9c1bede1,Atlixko,0.8571428571428572,0.0,0.0,0.2,1.0,0.5,0.6309297535714575,nahuatl-b3a024fc17f6,nahuatl-ea6f9c1bede1|nahuatl-b3a024fc17f6|nahuatl-8a5016a4e796|nahuatl-87555047cafd|nahuatl-ebf011fd6726
+nah-dev-031,transposition,kimihcin,kimichin,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-e22d861a1987,
+nah-dev-031,transposition,kimihcin,kimichin,B1_exact_normalized,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-e22d861a1987,
+nah-dev-031,transposition,kimihcin,kimichin,B2_fuzzy_normalized,1,3,nahuatl-e22d861a1987,kimichin,0.75,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-e22d861a1987,nahuatl-e22d861a1987|nahuatl-3d8354df83e8|nahuatl-d29d33a99887
+nah-dev-032,transposition,axolokutespalin,axolokuetspalin,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-ece448e78569,
+nah-dev-032,transposition,axolokutespalin,axolokuetspalin,B1_exact_normalized,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-ece448e78569,
+nah-dev-032,transposition,axolokutespalin,axolokuetspalin,B2_fuzzy_normalized,1,1,nahuatl-ece448e78569,axolokuetspalin,0.8666666666666667,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-ece448e78569,nahuatl-ece448e78569
+nah-dev-033,transposition,chiaiutl,chiauitl,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-983f8fed120e,
+nah-dev-033,transposition,chiaiutl,chiauitl,B1_exact_normalized,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-983f8fed120e,
+nah-dev-033,transposition,chiaiutl,chiauitl,B2_fuzzy_normalized,1,5,nahuatl-80cab07c3eb1,chikiuitl,0.7777777777777778,0.0,0.0,0.2,1.0,0.25,0.43067655807339306,nahuatl-983f8fed120e,nahuatl-80cab07c3eb1|nahuatl-4295eaa03e35|nahuatl-40a625fe8e4f|nahuatl-983f8fed120e|nahuatl-c9503e2eec7d
+nah-dev-034,transposition,atlakaneimlistli,atlakanemilistli,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-ee2aa1eaba5b,
+nah-dev-034,transposition,atlakaneimlistli,atlakanemilistli,B1_exact_normalized,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-ee2aa1eaba5b,
+nah-dev-034,transposition,atlakaneimlistli,atlakanemilistli,B2_fuzzy_normalized,1,5,nahuatl-ee2aa1eaba5b,atlakanemilistli,0.875,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-ee2aa1eaba5b,nahuatl-ee2aa1eaba5b|nahuatl-48e9d550cf83|nahuatl-b9f07ed32c9d|nahuatl-d6356dcd6b3b|nahuatl-6640a84ff22e
+nah-dev-035,transposition,isutal,isuatl,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-4671ce8ffe9a,
+nah-dev-035,transposition,isutal,isuatl,B1_exact_normalized,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-4671ce8ffe9a,
+nah-dev-035,transposition,isutal,isuatl,B2_fuzzy_normalized,1,3,nahuatl-910a97af7f53,istak,0.6666666666666667,0.0,0.0,0.2,1.0,0.3333333333333333,0.5,nahuatl-4671ce8ffe9a,nahuatl-910a97af7f53|nahuatl-6f1c403a7575|nahuatl-4671ce8ffe9a
+nah-dev-036,diacritic,Agustin teopixki,Agustín teopixki,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-cd8bb0374502,
+nah-dev-036,diacritic,Agustin teopixki,Agustín teopixki,B1_exact_normalized,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-cd8bb0374502,
+nah-dev-036,diacritic,Agustin teopixki,Agustín teopixki,B2_fuzzy_normalized,1,3,nahuatl-cd8bb0374502,Agustín teopixki,0.9375,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-cd8bb0374502,nahuatl-cd8bb0374502|nahuatl-09e472c20854|nahuatl-4f179e4f24c7
+nah-dev-037,diacritic,tlatia (tlatia),tlatia (tlātiā),B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-a4798a47e0a4,
+nah-dev-037,diacritic,tlatia (tlatia),tlatia (tlātiā),B1_exact_normalized,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-a4798a47e0a4,
+nah-dev-037,diacritic,tlatia (tlatia),tlatia (tlātiā),B2_fuzzy_normalized,1,4,nahuatl-28669bcaf6e6,tlatia (tlatiā),0.9333333333333333,0.0,0.0,0.2,1.0,0.5,0.6309297535714575,nahuatl-a4798a47e0a4,nahuatl-28669bcaf6e6|nahuatl-a4798a47e0a4|nahuatl-4eed1f65a9cc|nahuatl-85e7b1bb32c2
+nah-dev-038,diacritic,tlatia (tlatia),tlatia (tlatiā),B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-28669bcaf6e6,
+nah-dev-038,diacritic,tlatia (tlatia),tlatia (tlatiā),B1_exact_normalized,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-28669bcaf6e6,
+nah-dev-038,diacritic,tlatia (tlatia),tlatia (tlatiā),B2_fuzzy_normalized,1,4,nahuatl-28669bcaf6e6,tlatia (tlatiā),0.9333333333333333,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-28669bcaf6e6,nahuatl-28669bcaf6e6|nahuatl-a4798a47e0a4|nahuatl-4eed1f65a9cc|nahuatl-85e7b1bb32c2
+nah-dev-039,diacritic,Akolman,Akolmán,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-c634759d00e5,
+nah-dev-039,diacritic,Akolman,Akolmán,B1_exact_normalized,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-c634759d00e5,
+nah-dev-039,diacritic,Akolman,Akolmán,B2_fuzzy_normalized,1,5,nahuatl-c634759d00e5,Akolmán,0.8571428571428572,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-c634759d00e5,nahuatl-c634759d00e5|nahuatl-35bcbc49b09c|nahuatl-1a57486de552|nahuatl-4c5b9a6ccd00|nahuatl-faf0158deb27
+nah-dev-040,diacritic,Amatitlan,Amatitlán,B0_exact_raw,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-b9ac92bf025e,
+nah-dev-040,diacritic,Amatitlan,Amatitlán,B1_exact_normalized,1,0,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,nahuatl-b9ac92bf025e,
+nah-dev-040,diacritic,Amatitlan,Amatitlán,B2_fuzzy_normalized,1,5,nahuatl-b9ac92bf025e,Amatitlán,0.8888888888888888,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-b9ac92bf025e,nahuatl-b9ac92bf025e|nahuatl-fe03ba673a8d|nahuatl-1db6a744fbb6|nahuatl-4a3b5300bd14|nahuatl-572b53ef74f2
+nah-dev-041,multiword,mixpantsinko !,mixpantsinko !,B0_exact_raw,1,1,nahuatl-cdbeb9fc97e1,mixpantsinko !,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-cdbeb9fc97e1,nahuatl-cdbeb9fc97e1
+nah-dev-041,multiword,mixpantsinko !,mixpantsinko !,B1_exact_normalized,1,1,nahuatl-cdbeb9fc97e1,mixpantsinko !,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-cdbeb9fc97e1,nahuatl-cdbeb9fc97e1
+nah-dev-041,multiword,mixpantsinko !,mixpantsinko !,B2_fuzzy_normalized,1,4,nahuatl-cdbeb9fc97e1,mixpantsinko !,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-cdbeb9fc97e1,nahuatl-cdbeb9fc97e1|nahuatl-57e3d4861ede|nahuatl-63003d361e61|nahuatl-f277e34fa36b
+nah-dev-042,multiword,itech kali,itech kali,B0_exact_raw,1,1,nahuatl-488f3461d156,itech kali,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-488f3461d156,nahuatl-488f3461d156
+nah-dev-042,multiword,itech kali,itech kali,B1_exact_normalized,1,1,nahuatl-488f3461d156,itech kali,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-488f3461d156,nahuatl-488f3461d156
+nah-dev-042,multiword,itech kali,itech kali,B2_fuzzy_normalized,1,5,nahuatl-488f3461d156,itech kali,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-488f3461d156,nahuatl-488f3461d156|nahuatl-dcd61df31aff|nahuatl-e8663773c283|nahuatl-0bee82eff2f0|nahuatl-e31adc82e746
+nah-dev-043,multiword,ok achi,ok achi,B0_exact_raw,1,1,nahuatl-7139077d5de6,ok achi,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-7139077d5de6,nahuatl-7139077d5de6
+nah-dev-043,multiword,ok achi,ok achi,B1_exact_normalized,1,1,nahuatl-7139077d5de6,ok achi,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-7139077d5de6,nahuatl-7139077d5de6
+nah-dev-043,multiword,ok achi,ok achi,B2_fuzzy_normalized,1,2,nahuatl-7139077d5de6,ok achi,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-7139077d5de6,nahuatl-7139077d5de6|nahuatl-094be7e8436d
+nah-dev-044,multiword,Tolan Xikotitlan,Tolan Xikotitlan,B0_exact_raw,1,1,nahuatl-dc255bec8512,Tolan Xikotitlan,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-dc255bec8512,nahuatl-dc255bec8512
+nah-dev-044,multiword,Tolan Xikotitlan,Tolan Xikotitlan,B1_exact_normalized,1,1,nahuatl-dc255bec8512,Tolan Xikotitlan,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-dc255bec8512,nahuatl-dc255bec8512
+nah-dev-044,multiword,Tolan Xikotitlan,Tolan Xikotitlan,B2_fuzzy_normalized,1,2,nahuatl-dc255bec8512,Tolan Xikotitlan,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-dc255bec8512,nahuatl-dc255bec8512|nahuatl-ffad99c4e26a
+nah-dev-045,multiword,san ika,san ika,B0_exact_raw,1,1,nahuatl-549385df1ba5,san ika,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-549385df1ba5,nahuatl-549385df1ba5
+nah-dev-045,multiword,san ika,san ika,B1_exact_normalized,1,1,nahuatl-549385df1ba5,san ika,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-549385df1ba5,nahuatl-549385df1ba5
+nah-dev-045,multiword,san ika,san ika,B2_fuzzy_normalized,1,5,nahuatl-549385df1ba5,san ika,1.0,1.0,1.0,0.2,1.0,1.0,1.0,nahuatl-549385df1ba5,nahuatl-549385df1ba5|nahuatl-22b8a8730545|nahuatl-c83b9d0cc916|nahuatl-c7397daa1aff|nahuatl-4c21f30f1bc0
+nah-dev-046,ambiguity,nechikoa,nechikoa,B0_exact_raw,2,2,nahuatl-88c8b741a796,nechikoa,1.0,1.0,1.0,0.4,1.0,1.0,1.0,nahuatl-88c8b741a796|nahuatl-9cae3254c499,nahuatl-88c8b741a796|nahuatl-9cae3254c499
+nah-dev-046,ambiguity,nechikoa,nechikoa,B1_exact_normalized,2,2,nahuatl-88c8b741a796,nechikoa,1.0,1.0,1.0,0.4,1.0,1.0,1.0,nahuatl-88c8b741a796|nahuatl-9cae3254c499,nahuatl-88c8b741a796|nahuatl-9cae3254c499
+nah-dev-046,ambiguity,nechikoa,nechikoa,B2_fuzzy_normalized,2,5,nahuatl-88c8b741a796,nechikoa,1.0,1.0,1.0,0.4,1.0,1.0,1.0,nahuatl-88c8b741a796|nahuatl-9cae3254c499,nahuatl-88c8b741a796|nahuatl-9cae3254c499|nahuatl-006923f3c57a|nahuatl-3a29a14cb7f0|nahuatl-e31adc82e746
+nah-dev-047,ambiguity,tlaxoxotlali,tlaxoxotlali,B0_exact_raw,2,2,nahuatl-2c67f52ff8dd,tlaxoxotlali,1.0,1.0,1.0,0.4,1.0,1.0,1.0,nahuatl-2c67f52ff8dd|nahuatl-58de2f7f86e1,nahuatl-2c67f52ff8dd|nahuatl-58de2f7f86e1
+nah-dev-047,ambiguity,tlaxoxotlali,tlaxoxotlali,B1_exact_normalized,2,2,nahuatl-2c67f52ff8dd,tlaxoxotlali,1.0,1.0,1.0,0.4,1.0,1.0,1.0,nahuatl-2c67f52ff8dd|nahuatl-58de2f7f86e1,nahuatl-2c67f52ff8dd|nahuatl-58de2f7f86e1
+nah-dev-047,ambiguity,tlaxoxotlali,tlaxoxotlali,B2_fuzzy_normalized,2,5,nahuatl-2c67f52ff8dd,tlaxoxotlali,1.0,1.0,1.0,0.4,1.0,1.0,1.0,nahuatl-2c67f52ff8dd|nahuatl-58de2f7f86e1,nahuatl-2c67f52ff8dd|nahuatl-58de2f7f86e1|nahuatl-31b39addf0e3|nahuatl-92a1c28a3d17|nahuatl-c895aad0581e
+nah-dev-048,ambiguity,manali,manali,B0_exact_raw,2,2,nahuatl-55699ae1b0b0,manali,1.0,1.0,1.0,0.4,1.0,1.0,1.0,nahuatl-26f8d54a9bb7|nahuatl-55699ae1b0b0,nahuatl-55699ae1b0b0|nahuatl-26f8d54a9bb7
+nah-dev-048,ambiguity,manali,manali,B1_exact_normalized,2,2,nahuatl-55699ae1b0b0,manali,1.0,1.0,1.0,0.4,1.0,1.0,1.0,nahuatl-26f8d54a9bb7|nahuatl-55699ae1b0b0,nahuatl-55699ae1b0b0|nahuatl-26f8d54a9bb7
+nah-dev-048,ambiguity,manali,manali,B2_fuzzy_normalized,2,5,nahuatl-55699ae1b0b0,manali,1.0,1.0,1.0,0.4,1.0,1.0,1.0,nahuatl-26f8d54a9bb7|nahuatl-55699ae1b0b0,nahuatl-55699ae1b0b0|nahuatl-26f8d54a9bb7|nahuatl-0b403d807b09|nahuatl-909a6d64dba2|nahuatl-e2362f728980
+nah-dev-049,ambiguity,temostli,temostli,B0_exact_raw,2,2,nahuatl-8404acfecbbf,temostli,1.0,1.0,1.0,0.4,1.0,1.0,1.0,nahuatl-8404acfecbbf|nahuatl-a052a0aa8d8f,nahuatl-8404acfecbbf|nahuatl-a052a0aa8d8f
+nah-dev-049,ambiguity,temostli,temostli,B1_exact_normalized,2,2,nahuatl-8404acfecbbf,temostli,1.0,1.0,1.0,0.4,1.0,1.0,1.0,nahuatl-8404acfecbbf|nahuatl-a052a0aa8d8f,nahuatl-8404acfecbbf|nahuatl-a052a0aa8d8f
+nah-dev-049,ambiguity,temostli,temostli,B2_fuzzy_normalized,2,5,nahuatl-8404acfecbbf,temostli,1.0,1.0,1.0,0.4,1.0,1.0,1.0,nahuatl-8404acfecbbf|nahuatl-a052a0aa8d8f,nahuatl-8404acfecbbf|nahuatl-a052a0aa8d8f|nahuatl-c2f49baf017b|nahuatl-05350bf9dbda|nahuatl-b9dca9d9356a
+nah-dev-050,ambiguity,axiltili,axiltili,B0_exact_raw,2,2,nahuatl-d4c08543e57a,axiltili,1.0,1.0,1.0,0.4,1.0,1.0,1.0,nahuatl-84a0f851906a|nahuatl-d4c08543e57a,nahuatl-d4c08543e57a|nahuatl-84a0f851906a
+nah-dev-050,ambiguity,axiltili,axiltili,B1_exact_normalized,2,2,nahuatl-d4c08543e57a,axiltili,1.0,1.0,1.0,0.4,1.0,1.0,1.0,nahuatl-84a0f851906a|nahuatl-d4c08543e57a,nahuatl-d4c08543e57a|nahuatl-84a0f851906a
+nah-dev-050,ambiguity,axiltili,axiltili,B2_fuzzy_normalized,2,5,nahuatl-d4c08543e57a,axiltili,1.0,1.0,1.0,0.4,1.0,1.0,1.0,nahuatl-84a0f851906a|nahuatl-d4c08543e57a,nahuatl-d4c08543e57a|nahuatl-84a0f851906a|nahuatl-6a9c713c39a5|nahuatl-6ec60d9756be|nahuatl-488dced03499

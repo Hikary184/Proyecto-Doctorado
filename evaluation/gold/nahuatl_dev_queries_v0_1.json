@@ -1,0 +1,557 @@
+[
+  {
+    "query_id": "nah-dev-001",
+    "query": "sitlaltsitsimitl",
+    "category": "exact",
+    "source_headword": "sitlaltsitsimitl",
+    "relevant_ids": [
+      "nahuatl-caee7275bb4c"
+    ],
+    "transformation": "none",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-002",
+    "query": "kantabria",
+    "category": "exact",
+    "source_headword": "kantabria",
+    "relevant_ids": [
+      "nahuatl-3b8b7dd2862f"
+    ],
+    "transformation": "none",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-003",
+    "query": "tlauelittalistli",
+    "category": "exact",
+    "source_headword": "tlauelittalistli",
+    "relevant_ids": [
+      "nahuatl-4d0b3cbad3e2"
+    ],
+    "transformation": "none",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-004",
+    "query": "ekaualichkatl",
+    "category": "exact",
+    "source_headword": "ekaualichkatl",
+    "relevant_ids": [
+      "nahuatl-3da892cbb063"
+    ],
+    "transformation": "none",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-005",
+    "query": "aseloni",
+    "category": "exact",
+    "source_headword": "aseloni",
+    "relevant_ids": [
+      "nahuatl-fdb4d2f03e3d"
+    ],
+    "transformation": "none",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-006",
+    "query": "KOCHKI",
+    "category": "case",
+    "source_headword": "kochki",
+    "relevant_ids": [
+      "nahuatl-a08ea5a40332"
+    ],
+    "transformation": "case",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-007",
+    "query": "TLEYOTILIA",
+    "category": "case",
+    "source_headword": "tleyotilia",
+    "relevant_ids": [
+      "nahuatl-25f9ec93c734"
+    ],
+    "transformation": "case",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-008",
+    "query": "IXNEKUILTIK",
+    "category": "case",
+    "source_headword": "ixnekuiltik",
+    "relevant_ids": [
+      "nahuatl-007f556df412"
+    ],
+    "transformation": "case",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-009",
+    "query": "TETEPACHOA",
+    "category": "case",
+    "source_headword": "tetepachoa",
+    "relevant_ids": [
+      "nahuatl-018e269acab1"
+    ],
+    "transformation": "case",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-010",
+    "query": "NAVARREKATL",
+    "category": "case",
+    "source_headword": "navarrekatl",
+    "relevant_ids": [
+      "nahuatl-897cf23b14ac"
+    ],
+    "transformation": "case",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-011",
+    "query": "  panitlasatl  ",
+    "category": "whitespace",
+    "source_headword": "panitlasatl",
+    "relevant_ids": [
+      "nahuatl-9fb12bdb4c90"
+    ],
+    "transformation": "whitespace",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-012",
+    "query": "  nematumalistli  ",
+    "category": "whitespace",
+    "source_headword": "nematumalistli",
+    "relevant_ids": [
+      "nahuatl-14414b33965a"
+    ],
+    "transformation": "whitespace",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-013",
+    "query": "  kakayaua  ",
+    "category": "whitespace",
+    "source_headword": "kakayaua",
+    "relevant_ids": [
+      "nahuatl-0fb2df337a69"
+    ],
+    "transformation": "whitespace",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-014",
+    "query": "  okichpiltsintli  ",
+    "category": "whitespace",
+    "source_headword": "okichpiltsintli",
+    "relevant_ids": [
+      "nahuatl-f3c1618bee9b"
+    ],
+    "transformation": "whitespace",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-015",
+    "query": "  tlatsinkuinia  ",
+    "category": "whitespace",
+    "source_headword": "tlatsinkuinia",
+    "relevant_ids": [
+      "nahuatl-5177b0d76f54"
+    ],
+    "transformation": "whitespace",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-016",
+    "query": "tlakkoli",
+    "category": "deletion",
+    "source_headword": "tlakokoli",
+    "relevant_ids": [
+      "nahuatl-dc129afde38c"
+    ],
+    "transformation": "deletion",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-017",
+    "query": "yeimostatsinka",
+    "category": "deletion",
+    "source_headword": "yeimostlatsinka",
+    "relevant_ids": [
+      "nahuatl-2eb057cc7cee"
+    ],
+    "transformation": "deletion",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-018",
+    "query": "nekaliistli",
+    "category": "deletion",
+    "source_headword": "nekalilistli",
+    "relevant_ids": [
+      "nahuatl-13610c84fb86"
+    ],
+    "transformation": "deletion",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-019",
+    "query": "atsaotl",
+    "category": "deletion",
+    "source_headword": "atsapotl",
+    "relevant_ids": [
+      "nahuatl-f05624d7d780"
+    ],
+    "transformation": "deletion",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-020",
+    "query": "ojtltoka",
+    "category": "deletion",
+    "source_headword": "ojtlatoka",
+    "relevant_ids": [
+      "nahuatl-030d14f966ec"
+    ],
+    "transformation": "deletion",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-021",
+    "query": "tlaxokamaalkayotl",
+    "category": "insertion",
+    "source_headword": "tlaxokamalkayotl",
+    "relevant_ids": [
+      "nahuatl-5d105610cb19"
+    ],
+    "transformation": "insertion",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-022",
+    "query": "atlaneixxtiloyan",
+    "category": "insertion",
+    "source_headword": "atlaneixtiloyan",
+    "relevant_ids": [
+      "nahuatl-922ab12a61a5"
+    ],
+    "transformation": "insertion",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-023",
+    "query": "tlanexxilok",
+    "category": "insertion",
+    "source_headword": "tlanexilok",
+    "relevant_ids": [
+      "nahuatl-6782b0f95ada"
+    ],
+    "transformation": "insertion",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-024",
+    "query": "teomachttilistli",
+    "category": "insertion",
+    "source_headword": "teomachtilistli",
+    "relevant_ids": [
+      "nahuatl-605ebd5fb6c3"
+    ],
+    "transformation": "insertion",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-025",
+    "query": "iluikatlaatilistli",
+    "category": "insertion",
+    "source_headword": "iluikatlatilistli",
+    "relevant_ids": [
+      "nahuatl-3dd1e4aca1b4"
+    ],
+    "transformation": "insertion",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-026",
+    "query": "koaxiatxajtoli",
+    "category": "substitution",
+    "source_headword": "koaxiatlajtoli",
+    "relevant_ids": [
+      "nahuatl-616e7c3f5526"
+    ],
+    "transformation": "substitution",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-027",
+    "query": "misxli",
+    "category": "substitution",
+    "source_headword": "mistli",
+    "relevant_ids": [
+      "nahuatl-51fece491523"
+    ],
+    "transformation": "substitution",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-028",
+    "query": "mikpetxakali",
+    "category": "substitution",
+    "source_headword": "mikpetlakali",
+    "relevant_ids": [
+      "nahuatl-cc2068bafbf2"
+    ],
+    "transformation": "substitution",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-029",
+    "query": "xonxtl",
+    "category": "substitution",
+    "source_headword": "xonotl",
+    "relevant_ids": [
+      "nahuatl-287ca9760698"
+    ],
+    "transformation": "substitution",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-030",
+    "query": "atlxko",
+    "category": "substitution",
+    "source_headword": "atlako",
+    "relevant_ids": [
+      "nahuatl-b3a024fc17f6"
+    ],
+    "transformation": "substitution",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-031",
+    "query": "kimihcin",
+    "category": "transposition",
+    "source_headword": "kimichin",
+    "relevant_ids": [
+      "nahuatl-e22d861a1987"
+    ],
+    "transformation": "transposition",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-032",
+    "query": "axolokutespalin",
+    "category": "transposition",
+    "source_headword": "axolokuetspalin",
+    "relevant_ids": [
+      "nahuatl-ece448e78569"
+    ],
+    "transformation": "transposition",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-033",
+    "query": "chiaiutl",
+    "category": "transposition",
+    "source_headword": "chiauitl",
+    "relevant_ids": [
+      "nahuatl-983f8fed120e"
+    ],
+    "transformation": "transposition",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-034",
+    "query": "atlakaneimlistli",
+    "category": "transposition",
+    "source_headword": "atlakanemilistli",
+    "relevant_ids": [
+      "nahuatl-ee2aa1eaba5b"
+    ],
+    "transformation": "transposition",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-035",
+    "query": "isutal",
+    "category": "transposition",
+    "source_headword": "isuatl",
+    "relevant_ids": [
+      "nahuatl-4671ce8ffe9a"
+    ],
+    "transformation": "transposition",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-036",
+    "query": "Agustin teopixki",
+    "category": "diacritic",
+    "source_headword": "Agustín teopixki",
+    "relevant_ids": [
+      "nahuatl-cd8bb0374502"
+    ],
+    "transformation": "diacritic",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-037",
+    "query": "tlatia (tlatia)",
+    "category": "diacritic",
+    "source_headword": "tlatia (tlātiā)",
+    "relevant_ids": [
+      "nahuatl-a4798a47e0a4"
+    ],
+    "transformation": "diacritic",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-038",
+    "query": "tlatia (tlatia)",
+    "category": "diacritic",
+    "source_headword": "tlatia (tlatiā)",
+    "relevant_ids": [
+      "nahuatl-28669bcaf6e6"
+    ],
+    "transformation": "diacritic",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-039",
+    "query": "Akolman",
+    "category": "diacritic",
+    "source_headword": "Akolmán",
+    "relevant_ids": [
+      "nahuatl-c634759d00e5"
+    ],
+    "transformation": "diacritic",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-040",
+    "query": "Amatitlan",
+    "category": "diacritic",
+    "source_headword": "Amatitlán",
+    "relevant_ids": [
+      "nahuatl-b9ac92bf025e"
+    ],
+    "transformation": "diacritic",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-041",
+    "query": "mixpantsinko !",
+    "category": "multiword",
+    "source_headword": "mixpantsinko !",
+    "relevant_ids": [
+      "nahuatl-cdbeb9fc97e1"
+    ],
+    "transformation": "none",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-042",
+    "query": "itech kali",
+    "category": "multiword",
+    "source_headword": "itech kali",
+    "relevant_ids": [
+      "nahuatl-488f3461d156"
+    ],
+    "transformation": "none",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-043",
+    "query": "ok achi",
+    "category": "multiword",
+    "source_headword": "ok achi",
+    "relevant_ids": [
+      "nahuatl-7139077d5de6"
+    ],
+    "transformation": "none",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-044",
+    "query": "Tolan Xikotitlan",
+    "category": "multiword",
+    "source_headword": "Tolan Xikotitlan",
+    "relevant_ids": [
+      "nahuatl-dc255bec8512"
+    ],
+    "transformation": "none",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-045",
+    "query": "san ika",
+    "category": "multiword",
+    "source_headword": "san ika",
+    "relevant_ids": [
+      "nahuatl-549385df1ba5"
+    ],
+    "transformation": "none",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-046",
+    "query": "nechikoa",
+    "category": "ambiguity",
+    "source_headword": "nechikoa",
+    "relevant_ids": [
+      "nahuatl-88c8b741a796",
+      "nahuatl-9cae3254c499"
+    ],
+    "transformation": "none",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-047",
+    "query": "tlaxoxotlali",
+    "category": "ambiguity",
+    "source_headword": "tlaxoxotlali",
+    "relevant_ids": [
+      "nahuatl-2c67f52ff8dd",
+      "nahuatl-58de2f7f86e1"
+    ],
+    "transformation": "none",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-048",
+    "query": "manali",
+    "category": "ambiguity",
+    "source_headword": "manali",
+    "relevant_ids": [
+      "nahuatl-55699ae1b0b0",
+      "nahuatl-26f8d54a9bb7"
+    ],
+    "transformation": "none",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-049",
+    "query": "temostli",
+    "category": "ambiguity",
+    "source_headword": "temostli",
+    "relevant_ids": [
+      "nahuatl-8404acfecbbf",
+      "nahuatl-a052a0aa8d8f"
+    ],
+    "transformation": "none",
+    "status": "auto_generated_needs_review"
+  },
+  {
+    "query_id": "nah-dev-050",
+    "query": "axiltili",
+    "category": "ambiguity",
+    "source_headword": "axiltili",
+    "relevant_ids": [
+      "nahuatl-d4c08543e57a",
+      "nahuatl-84a0f851906a"
+    ],
+    "transformation": "none",
+    "status": "auto_generated_needs_review"
+  }
+]
