@@ -1,0 +1,6 @@
+﻿method,queries,top1_accuracy,precision_at_1,precision_at_5,recall_at_5,mrr,ndcg_at_5
+B0_exact_raw,50,0.3,0.3,0.08,0.3,0.3,0.3
+B1_exact_normalized,50,0.48,0.48,0.12,0.5,0.49,0.49261859507142913
+B2_fuzzy_normalized,50,0.88,0.88,0.22,1.0,0.9316666666666668,0.9490879114471845
+B3_cascade,50,0.9,0.9,0.22,1.0,0.9416666666666668,0.9564693163757554
+B4_damerau_normalized,50,0.92,0.92,0.22,1.0,0.96,0.9704743802857166

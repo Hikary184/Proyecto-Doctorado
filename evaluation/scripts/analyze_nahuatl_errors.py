@@ -9,7 +9,7 @@ INPUT_FILE = Path(
 
 OUTPUT_FILE = Path(
     "results/tables/"
-    "nahuatl_dev_errors.csv"
+    "nahuatl_dev_b5_errors.csv"
 )
 
 
@@ -30,7 +30,7 @@ def main():
         for row in rows
         if (
             row["method"]
-            == "B2_fuzzy_normalized"
+            == "B5_cascade_damerau"
             and
             float(
                 row["top1_accuracy"]
@@ -40,7 +40,7 @@ def main():
     ]
 
     print()
-    print("B2 NAHUATL ERROR ANALYSIS")
+    print("B5 NAHUATL ERROR ANALYSIS")
     print("=" * 72)
 
     print(

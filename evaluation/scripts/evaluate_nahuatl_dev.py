@@ -22,6 +22,14 @@ from src.retrieval.fuzzy import (
     search_fuzzy_normalized
 )
 
+from src.retrieval.damerau import (
+    search_damerau_normalized
+)
+
+from src.retrieval.cascade_damerau import (
+    search_cascade_damerau
+)
+
 
 CORPUS_FILE = Path(
     "data/processed/nahuatl/"
@@ -244,6 +252,23 @@ def run_method(
             threshold=FUZZY_THRESHOLD
         )
 
+    if method_name == "B4_damerau_normalized":
+
+        return search_damerau_normalized(
+            query,
+            entries,
+            top_k=TOP_K,
+            threshold=FUZZY_THRESHOLD
+        )
+    if method_name == "B5_cascade_damerau":
+
+        return search_cascade_damerau(
+            query,
+            entries,
+            top_k=TOP_K,
+            threshold=FUZZY_THRESHOLD
+        )
+
     raise ValueError(
         f"Unknown method: {method_name}"
     )
@@ -321,7 +346,9 @@ def main():
         "B0_exact_raw",
         "B1_exact_normalized",
         "B2_fuzzy_normalized",
-        "B3_cascade"
+        "B3_cascade",
+        "B4_damerau_normalized",
+        "B5_cascade_damerau"
     ]
 
     detailed_rows = []

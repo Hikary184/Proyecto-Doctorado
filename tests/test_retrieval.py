@@ -19,6 +19,13 @@ from src.retrieval.cascade import (
     search_cascade
 )
 
+from src.retrieval.damerau import (
+    search_damerau_normalized
+)
+
+from src.retrieval.cascade_damerau import (
+    search_cascade_damerau
+)
 
 def create_entry(
     entry_id: str,
@@ -191,4 +198,73 @@ def test_cascade_uses_fuzzy():
     assert (
         results[0].headword
         == "Example"
+    )
+
+def test_damerau_transposition():
+
+    results = search_damerau_normalized(
+        "exampel",
+        ENTRIES,
+        top_k=1
+    )
+
+    assert results
+
+    assert (
+        results[0].entry_id
+        == "test-001"
+    )
+
+    assert (
+        results[0].score
+        > 0.7142857142857143
+    )
+
+def test_cascade_damerau_exact_raw():
+
+    results = search_cascade_damerau(
+        "Example",
+        ENTRIES
+    )
+
+    assert results
+
+    assert (
+        results[0].headword
+        == "Example"
+    )
+
+
+def test_cascade_damerau_normalized():
+
+    results = search_cascade_damerau(
+        "EXAMPLE",
+        ENTRIES
+    )
+
+    assert results
+
+    assert (
+        results[0].headword
+        == "Example"
+    )
+
+
+def test_cascade_damerau_transposition():
+
+    results = search_cascade_damerau(
+        "exampel",
+        ENTRIES
+    )
+
+    assert results
+
+    assert (
+        results[0].headword
+        == "Example"
+    )
+
+    assert (
+        results[0].score
+        > 0.7142857142857143
     )
